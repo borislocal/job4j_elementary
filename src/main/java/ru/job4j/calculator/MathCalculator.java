@@ -19,7 +19,7 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Резульат расчёта равен: " + sumAndMultiply(10, 20));
-        System.out.println("Сумма результатов всех операций равен: " + sumOfFourCalculations(10, 20));
+        System.out.println("Результат расчёта равен: " + sumAndMultiply(10, 20));
+        System.out.println("Сумма результатов всех операций равна: " + sumOfFourCalculations(10, 20));
     }
 }
