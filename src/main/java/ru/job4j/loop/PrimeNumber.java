@@ -12,4 +12,3 @@ public class PrimeNumber {
         return count;
     }
 }
-//5.6. Простые числа [#156314]
