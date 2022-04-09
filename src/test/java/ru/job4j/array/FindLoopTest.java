@@ -30,4 +30,13 @@ public class FindLoopTest {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenArrayHas13Then3() {
+        int[] data = {9, 101, 0, 13};
+        int el = 13;
+        int result = FindLoop.indexOf(data, el);
+        int expected = 3;
+        Assert.assertEquals(expected, result);
+    }
 }
